@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Portfolio V2 — Tanmay Pramanick
 
-## Getting Started
+This is the **second iteration of my personal developer portfolio**, built with Next.js 16, TypeScript, and Framer Motion. It showcases my projects, experience, and skills as a Software / AI Engineer — with a focus on clean design, smooth animations, and fast performance.
 
-First, run the development server:
+Live at: **[tanmaypramanick.vercel.app](https://tanmaypramanick.vercel.app)**
+
+---
+
+## 🚀 Features
+
+- ✨ Animated hero section with typewriter effect
+- 🗺️ Interactive journey/experience timeline
+- 💼 Project showcase with links and tech tags
+- 🌙 Light / Dark mode toggle
+- 📱 Fully responsive across all screen sizes
+- ⚡ Optimized with Next.js App Router and static generation
+- 🎞️ Smooth page and component transitions via Framer Motion
+
+---
+
+## 📦 Folder Structure
+
+```
+Portfolio-V2/
+│
+├── app/                   # Next.js App Router pages and layouts
+├── components/            # Reusable UI components (Navbar, Hero, Timeline, Projects, etc.)
+├── lib/                   # Utility functions and constants
+├── public/                # Static assets (images, icons, resume)
+├── next.config.ts         # Next.js config
+├── tailwind.config.ts     # Tailwind CSS config
+├── tsconfig.json
+└── package.json
+```
+
+---
+
+## ⚙️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React, Heroicons
+- **Theming**: next-themes
+- **Forms**: React Hook Form
+- **Type Effects**: react-type-animation
+- **Deployment**: Vercel
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/tanmayypramanick/Portfolio-V2.git
+cd Portfolio-V2
+npm install
+```
+
+### Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This portfolio is deployed on **Vercel**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To deploy your own fork:
 
-## Deploy on Vercel
+1. Push to GitHub
+2. Import the repo in [vercel.com](https://vercel.com)
+3. Deploy — zero config needed for Next.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🖼️ Sections
+
+- **Hero** — Name, title, and typewriter role animation
+- **About** — Short bio and background
+- **Experience** — Career and education timeline
+- **Projects** — Featured work with tech tags and links
+- **Skills** — Tech stack overview
+- **Contact** — Email and social links
+
+---
+
+## 👤 Author
+
+**Tanmay Pramanick**
+
+📧 tanmaypramanick06@gmail.com
+🔗 https://www.linkedin.com/in/tanmaypramanick/
+🌐 https://tanmaypramanick.vercel.app
+
+---
+
+## 🙏 Attribution
+
+If you fork or adapt this portfolio, a credit or star would be appreciated!
+
+Drop a ⭐ on GitHub if this helped you build yours.
